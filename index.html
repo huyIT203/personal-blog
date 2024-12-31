@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <!-- Box-icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">HI <span>myhobby</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html"><i class='bx bx-home'></i> Home</a></li>
+                    <li><a href="index.html"><i class='bx bx-book'></i> Blog</a></li>
+                    <li><a href="/pages/profile.html"><i class='bx bx-user'></i> Profile</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section class="about container" id="about">
+        <div class="contentBx">
+            <h2 class="titleText">Hi,xin chào. Mình là Huy</h2>
+            <p class="title-text">
+              Chào mọi người đến với blog của tôi 
+                <br>Tại đây tôi muốn chia sẻ các khóa học lập trình tôi đã học và cho mọi người biết sự hữu ích của chúng. Ngoài ra mình cũng rất thích nấu ăn nữa :3.
+            </p>
+            <a href="#" class="btn2">Đọc thêm</a>
+        </div>
+        <div class="imgBx">
+            <img src="images/avatar.jpg" alt="" class="fitBg">
+        </div>
+    </section>
+
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter="all">All</span>
+        <span class="filter-item" data-filter="tech">Tech</span>
+        <span class="filter-item" data-filter="food">Food</span>
+    </div>
+    
+    <div class="post container">
+        <!-- Post 1 -->
+        <div class="post-box tech">
+            <img src="images/java.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Hướng Dẫn lập trình với java</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Tìm hiểu các kiến thức cơ bản về ngôn ngữ lập trình Java qua bài hướng dẫn chi tiết này. Dù bạn là người mới bắt đầu hay đã có kinh nghiệm, bài viết sẽ giúp bạn nắm vững các khái niệm quan trọng như lập trình hướng đối tượng, cú pháp, và ứng dụng thực tế của Java.
+           </p>
+            <div class="profile">
+                <img src="images/avatar.jpg" alt="" class="profile-img">
+                <span class="profile-name">Quang Huy</span>
+            </div>
+            <a href="pages/java.html" class="btn2">Đọc thêm</a>
+        </div>
+        <!-- Post 2 -->
+        <div class="post-box tech">
+            <img src="images/Springboot.png" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Hướng Dẫn Xây Dựng Ứng Dụng Với Spring Boot</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Khám phá cách sử dụng Spring Boot để phát triển các ứng dụng web mạnh mẽ và dễ bảo trì. Bài viết này sẽ hướng dẫn bạn cách thiết lập dự án, cấu hình, và triển khai các API RESTful một cách hiệu quả.
+       </p>
+            <div class="profile">
+                <img src="images/avatar.jpg" alt="" class="profile-img">
+                <span class="profile-name">Quang Huy</span>
+            </div>
+            <a href="pages/spring.html" class="btn2">Đọc thêm</a>
+        </div>
+        <!-- Post 3 -->
+        <div class="post-box food">
+            <img src="images/bunbohue.jpg" alt="" class="post-img">
+            <h2 class="category">Food</h2>
+            <a href="#" class="post-title">Cách làm bún bò Huế</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Bún Bò Huế, món ăn nổi tiếng của miền Trung Việt Nam, được biết đến với hương vị đậm đà, thơm ngon của nước dùng từ xương bò và mắm ruốc. Hãy cùng khám phá cách nấu bún bò Huế chuẩn vị và những bí quyết làm nên sự hấp dẫn của món ăn này.</p>
+            <div class="profile">
+                <img src="images/avatar.jpg" alt="" class="profile-img">
+                <span class="profile-name">Quang Huy</span>
+            </div>
+            <a href="pages/bunbohue.html" class="btn2">Đọc thêm</a>
+        </div>
+        <!-- Post 4 -->
+        <div class="post-box news">
+            <img src="images/mysql.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Hướng Dẫn Sử Dụng MySQL</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description"> MySQL là hệ quản trị cơ sở dữ liệu mã nguồn mở phổ biến nhất, được sử dụng rộng rãi để lưu trữ và quản lý dữ liệu. Trong bài viết này, bạn sẽ học cách cài đặt MySQL, tạo cơ sở dữ liệu, và thực hiện các truy vấn cơ bản để quản lý dữ liệu một cách hiệu quả.</p>
+            <div class="profile">
+                <img src="images/avatar.jpg" alt="" class="profile-img">
+                <span class="profile-name">Quang Huy</span>
+            </div>
+            <a href="pages/mysql.html" class="btn2">Đọc thêm</a>
+        </div>
+        <!-- Post 5 -->
+        <div class="post-box tech">
+            <img src="images/bootstrap.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Hướng Dẫn Sử Dụng Bootstrap</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description"> Bootstrap là một framework CSS phổ biến giúp phát triển giao diện web nhanh chóng và hiệu quả. Trong bài viết này, bạn sẽ học cách sử dụng Bootstrap để tạo giao diện đẹp mắt, thân thiện với người dùng mà không cần quá nhiều mã CSS thủ công.
+</p>
+            <div class="profile">
+                <img src="images/avatar.jpg" alt="" class="profile-img">
+                <span class="profile-name">Quang Huy</span>
+            </div>
+            <a href="pages/bootstrap.html" class="btn2">Đọc thêm</a>
+        </div>
+        <!-- Post 6 -->
+        <div class="post-box tech">
+            <img src="images/html.jpg" alt="" class="post-img">
+            <h2 class="category">News</h2>
+            <a href="#" class="post-title">Giới Thiệu HTML</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description"> HTML (HyperText Markup Language) là ngôn ngữ cơ bản để xây dựng cấu trúc cho một trang web. Bài viết này sẽ giúp bạn hiểu về các thẻ HTML, cách tổ chức nội dung, và những bước cơ bản để bắt đầu tạo một website.</p>
+            <div class="profile">
+                <img src="images/avatar.jpg" alt="" class="profile-img">
+                <span class="profile-name">Quang Huy</span>
+            </div>
+            <a href="#" class="btn2">Đọc thêm</a>
+        </div>
+        <!-- Post 7 -->
+        <div class="post-box tech">
+            <img src="images/javascript.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Hướng Dẫn Lập Trình JavaScript</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">JavaScript là ngôn ngữ lập trình phổ biến nhất trên thế giới, được sử dụng để tạo các ứng dụng web tương tác và động. Bài viết này sẽ hướng dẫn bạn cách sử dụng JavaScript để thêm chức năng vào trang web, từ các thao tác cơ bản đến các ứng dụng nâng cao.
+            </p>
+            <div class="profile">
+                <img src="images/avatar.jpg" alt="" class="profile-img">
+                <span class="profile-name">Quang Huy</span>
+            </div>
+            <a href="pages/javascript.html" class="btn2">Đọc thêm</a>
+        </div>
+        <!-- Post 8 -->
+        <div class="post-box tech">
+            <img src="images/aws.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Tìm Hiểu AWS: Dịch Vụ Đám Mây Hàng Đầu</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Amazon Web Services (AWS) là một trong những nền tảng đám mây phổ biến nhất thế giới, cung cấp các dịch vụ như lưu trữ, tính toán, cơ sở dữ liệu, và trí tuệ nhân tạo. Khám phá cách AWS giúp các doanh nghiệp tăng hiệu suất và tiết kiệm chi phí vận hành.</p>
+            <div class="profile">
+                <img src="images/avatar.jpg" alt="" class="profile-img">
+                <span class="profile-name">Quang Huy</span>
+            </div>
+            <a href="pages/aws.html" class="btn2">Đọc thêm</a>
+        </div>
+        <!-- Post 9 -->
+        <div class="post-box food">
+            <img src="images/Pho.jpg" alt="" class="post-img">
+            <h2 class="category">Food</h2>
+            <a href="#" class="post-title">Hưỡng dẫn nấu Phở tại nhà</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description"> Phở là món ăn truyền thống nổi tiếng nhất của Việt Nam, với hương vị đậm đà từ nước dùng được hầm từ xương bò hoặc xương gà. Tìm hiểu cách nấu phở chuẩn vị và những nguyên liệu tạo nên sự đặc biệt của món ăn này.</p>
+            <div class="profile">
+            <img src="images/avatar.jpg" alt="" class="profile-img">
+                <span class="profile-name">Quang Huy</span>
+            </div>     
+            <a href="pages/Pho.html" class="btn2">Đọc thêm</a>   
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>Mạng xã hội</h2>
+            
+                <ul class="sci">
+                    <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Nhanh</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="sec contactBx">
+                <h2>Thông tin liên hệ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>Thành phố Hồ Chí Minh <br> Gò Vấp <br> ViệtNam</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-envelope' ></i></span>
+                        <p><a href="phamquangnamhuy1908@gmail.com">phamquangnamhuy1908@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>

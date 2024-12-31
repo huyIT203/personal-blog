@@ -1,0 +1,48 @@
+/* Phở Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff7e6;
+}
+
+.header {
+    background-color: #ffe4c4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #8B0000;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.content ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.footer {
+    background-color: #ffe4c4;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
